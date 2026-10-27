@@ -1,0 +1,34 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyd
+.pytest_cache/
+
+# Python virtual environments
+
+venv/
+venv_backup/
+venv_broken/
+venv_failed/
+backend/venv/
+backend/venv_backup/
+backend/venv_broken/
+backend/venv_failed/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Node dependencies and build output
+
+node_modules/
+dist/
+
+# Editor and operating system files
+
+.vscode/
+.DS_Store
+Thumbs.db
