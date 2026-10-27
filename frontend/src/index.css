@@ -1,5 +1,6 @@
 :root {
   font-family: Inter, "Segoe UI", Arial, sans-serif;
+  font-size: 25px;
   color: #202a3d;
   background: #f5f7fb;
   font-synthesis: none;
@@ -11,15 +12,20 @@
 html {
   min-width: 320px;
   min-height: 100%;
+  font-size: 16px;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 button,
 input,
 select {
   font-family: inherit;
+  font-size: inherit;
 }

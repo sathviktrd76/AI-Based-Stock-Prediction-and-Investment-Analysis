@@ -1716,3 +1716,207 @@ tbody tr:hover {
   height: 100%;
   min-height: 280px;
 }
+
+
+/* StockBeacon — improved readability */
+@media (min-width: 421px) {
+  /* Sidebar */
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .brand-copy small {
+    font-size: 10px;
+  }
+
+  .nav-label,
+  .eyebrow,
+  .section-kicker {
+    font-size: 11px;
+  }
+
+  .sidebar-note > p:last-child {
+    font-size: 12px;
+  }
+
+  .sidebar-footer {
+    font-size: 11px;
+  }
+
+  /* Main dashboard */
+  .welcome-copy > p:last-child {
+    font-size: 14px;
+  }
+
+  .search-label {
+    font-size: 10px;
+  }
+
+  .search-controls input {
+    font-size: 14px;
+  }
+
+  .search-controls button {
+    font-size: 12px;
+  }
+
+  /* Summary cards */
+  .metric-label {
+    font-size: 10px;
+  }
+
+  .metric-footnote {
+    font-size: 11px;
+  }
+
+  /* Charts and panels */
+  .panel-header h3 {
+    font-size: 18px;
+  }
+
+  .panel-subtitle {
+    font-size: 12px;
+  }
+
+  .chart-summary-label,
+  .period-control > span {
+    font-size: 10px;
+  }
+
+  .chart-summary strong {
+    font-size: 25px;
+  }
+
+  .chart-footer {
+    font-size: 11px;
+  }
+
+  /* AI prediction */
+  .prediction-caption {
+    font-size: 10px;
+  }
+
+  .prediction-description {
+    font-size: 12px;
+  }
+
+  .confidence-caption,
+  .prediction-detail {
+    font-size: 12px;
+  }
+
+  .confidence-caption strong {
+    font-size: 12px;
+  }
+
+  .disclaimer strong {
+    font-size: 12px;
+  }
+
+  .disclaimer p {
+    font-size: 11px;
+  }
+
+  /* Technical indicators */
+  .indicator-card > p {
+    font-size: 12px;
+  }
+
+  .indicator-card > span {
+    font-size: 11px;
+  }
+
+  .indicator-period {
+    font-size: 10px;
+  }
+
+  .indicator-note {
+    font-size: 12px;
+  }
+
+  .rsi-labels {
+    font-size: 9px;
+  }
+
+  /* Technical explanation */
+  .explanation-summary {
+    font-size: 13px;
+  }
+
+  .explanation-summary strong {
+    font-size: 13px;
+  }
+
+  .signal-item h4 {
+    font-size: 13px;
+  }
+
+  .signal-item p {
+    font-size: 12px;
+  }
+
+  /* Feature importance */
+  .importance-heading,
+  .importance-heading strong {
+    font-size: 13px;
+  }
+
+  /* Model evaluation table */
+  table {
+    font-size: 12px;
+  }
+
+  th {
+    font-size: 10px;
+  }
+
+  .evaluation-footnote p {
+    font-size: 11px;
+  }
+
+  /* Footer */
+  .footer-brand,
+  .footer-brand strong {
+    font-size: 12px;
+  }
+
+  .page-footer > p {
+    font-size: 11px;
+  }
+}
+
+/* Improve readability of Model Evaluation */
+@media (min-width: 421px) {
+  /* Section heading */
+  .evaluation-section h3,
+  .model-evaluation h3 {
+    font-size: 20px;
+  }
+
+  /* Subtitle and explanatory text */
+  .evaluation-section p,
+  .model-evaluation p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  /* Evaluation table */
+  table {
+    font-size: 14px;
+  }
+
+  th {
+    font-size: 12px;
+  }
+
+  td {
+    font-size: 14px;
+  }
+
+  /* Evaluation notes */
+  .evaluation-footnote,
+  .evaluation-footnote p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}

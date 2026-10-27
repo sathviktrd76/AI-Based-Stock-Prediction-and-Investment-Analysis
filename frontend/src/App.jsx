@@ -1026,7 +1026,7 @@ function App() {
                       </td>
                       <td>
                         {formatNumber(Number(metrics.f1_macro) * 100, 1)}%
-                      </td>not deployed
+                      </td>
                     </tr>
                   ))}
                 </tbody>
